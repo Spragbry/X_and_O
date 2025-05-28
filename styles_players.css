@@ -1,0 +1,57 @@
+.body {
+    height: 1024px;
+    background-color: darkgreen;
+    background: linear-gradient(to right, #159957, #155799);
+    font-family: Helvetica;
+}
+
+.title {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: #FFFDD0;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.button_container{
+    display: grid;
+    gap: 20px
+}
+.onePlayer {
+    color: #155799;
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    background-color: lightgray;
+    display: block; /* Makes the button a block element */
+    margin: 0 auto; /* Centers horizontally */
+    
+}
+
+.twoPlayers {
+    color: #155799;
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    background-color: lightgray;
+    display: block; /* Makes the button a block element */
+    margin: 0 auto; /* Centers horizontally */
+}
+
+.onePlayer:hover {
+    color: red;
+}
+
+.twoPlayers:hover {
+    color: red;
+}
