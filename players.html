@@ -16,10 +16,24 @@
     <h1>X's and O's Game</h1>
   </main>
   
-  <div class="button_container">
+  <!--<div class="button_container">
     <button class="onePlayer">1 PLAYER</button>
     <button class="twoPlayers">2 PLAYERS</button>
-  </div>
+  </div>-->
+  <body>
+    <button class="onePlayer" onclick="goToPlayer('one')">1 PLAYER</button>
+    <button class="twoPlayers" onclick="goToPlayer('two')">2 PLAYERS</button>
+
+    <script>
+        function goToPlayer(player) {
+            if (player === 'one') {
+                window.location.href = 'player1.html'; // Change to your actual URL
+            } else if (player === 'two') {
+                window.location.href = 'player2.html'; // Change to your actual URL
+            }
+        }
+    </script>
+</body>
   <footer class="footer">
     <!-- Footer content -->
      website created by: spragbry
