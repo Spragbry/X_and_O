@@ -1,37 +1,29 @@
-/*var lions = document.getElementById("lions")
+const lionsButton = document.getElementById('lions');
+lionsButton.addEventListener('click', function() {
+        console.log('Lions Button clicked!');
+    });
 
-if (lions) {
-        lions.addEventListener("select", () => {
-            console.log("lions have been selected");
-        })
-};*/
+const eaglesButton = document.getElementById('eagles');
+eaglesButton.addEventListener('click', function() {
+        console.log('Eagles Button clicked!');
+    });
 
-window.addEventListener('click', function() {
-    const lions = document.querySelector('button#lions');
-    //const eagles = document.querySelector('button#eagles');
-    //const chiefs = document.querySelector('button#chiefs');
-    //const giants = document.querySelector('button#giants');
-    //const bills = document.querySelector('button#bills');
-    //const falcons = document.querySelector('button#falcons');
+const chiefsButton = document.getElementById('chiefs');
+chiefsButton.addEventListener('click', function() {
+        console.log('Chiefs Button clicked!');
+    });
 
-        if(lions){
-            //lions.style.backgroundColor = 'yellow';
-            console.log("LIONS WORKED");
-        };
-        /*if (eagles){
-            console.log("EAGLES WORKED");
-        };
-        if(chiefs){
-            console.log("CHIEFS WORKED");
-        };
-        if(giants){
-            console.log("GIANTS WORKED");
-        };
-        if(bills){
-            console.log("BILLS WORKED");
-        };
-        if(falcons){
-            console.log("FALCONS WORKED");
-        };*/
+const giantsButton = document.getElementById('giants');
+giantsButton.addEventListener('click', function() {
+        console.log('Giants Button clicked!');
+    });
 
-}); //This is firing on every click. Might need to make every team in its own div
+const billsButton = document.getElementById('bills');
+billsButton.addEventListener('click', function() {
+        console.log('Bills Button clicked!');
+    });
+
+const falconsButton = document.getElementById('falcons');
+falconsButton.addEventListener('click', function() {
+        console.log('Falcons Button clicked!');
+    });
